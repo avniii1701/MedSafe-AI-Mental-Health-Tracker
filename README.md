@@ -1,6 +1,9 @@
 # MedSafe-AI-Mental-Health-Tracker
 AI Mental Health Sentiment Tracker using NLP
 
+Note: The demo is hosted on a free cloud server. If the page does not load immediately, please wait 30–60 seconds as the server may need to wake up.
+      I also uploaded Demo Video.
+
 # MedSafe AI
 
 AI-powered Mental Health Sentiment Tracker that analyzes user text and detects emotional sentiment.
