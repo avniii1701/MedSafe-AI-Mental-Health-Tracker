@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MedSafe AI</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h1>🧠 MedSafe AI</h1>
+<h3>Mental Health Sentiment Tracker</h3>
+
+<form method="POST">
+<textarea name="text" placeholder="How are you feeling today?" required></textarea>
+<br>
+<button type="submit">Analyze Mood</button>
+</form>
+
+{% if sentiment %}
+<div class="result">
+<h2>Sentiment: {{ sentiment }}</h2>
+<p>{{ suggestion }}</p>
+</div>
+{% endif %}
+
+</div>
+
+</body>
+</html>
